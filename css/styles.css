@@ -46,6 +46,10 @@ font-weight: 400;
 line-height: 24px;
 }
 
+.hero{
+    background: var(--navyblue, #2E2F42);
+}
+
 .business{
     color: var(--white, #FFF);
  text-align: center;
@@ -71,7 +75,13 @@ border-radius: 4px;
 gap: 10px;
 }
 
+.benefits-list{
+    list-style: none;
+}
 
+.work{
+    list-style: none;
+}
 
 .doing{
  color: var(--navyblue, #2E2F42);
@@ -89,6 +99,10 @@ font-size: 36px;
 font-style: normal;
 font-weight: 800;
 line-height: 40px;
+}
+
+.team-list{
+    list-style: none;
 }
 
 .text-portfolio{
